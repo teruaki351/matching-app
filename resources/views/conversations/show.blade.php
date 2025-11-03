@@ -5,7 +5,7 @@
 
 <div class="message-content">
   <h1 class="text-xl font-bold mb-4">会話（文字を追加したとお）</h1>
-
+  <h2>新しいブランチを作成したよ</h2>
 
   {{-- メッセージ一覧 --}}
       <div class="space-y-2 mb-4">
