@@ -1,0 +1,319 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+
+.qawsed {
+    width: 500px;
+    height: auto;
+}
+
+.rounded {
+    width: 500px;
+    height: auto;
+}
+
+
+.c-header-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    gap: 10px 50px;
+}
+
+.list-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    width: 700px;
+    margin: 0 auto;
+    padding: 60px 10px;
+    max-width: 100%;
+    gap:10px 20px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.list-wrap a {
+    display: block;
+    width: 48%;
+    /* border: 1px solid #333; */
+}
+
+
+.list-items {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.list-txt-wrap {
+    display: flex;
+    gap:0 10px;
+    margin-top: 10px;
+}
+
+.list-txt-age {
+    color: #c96274;
+}
+
+.list-txt-name {
+    color: #c96274;
+}
+
+.list-img {
+    border-radius: 20px !important;
+}
+
+/* マイページ */
+.edit-content-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.edit-img {
+    display: block;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.edit-img-label {
+    text-align: center !important;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.edit-img img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.edit-content-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.edit-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-content-items {
+    margin-bottom: 30px;
+}
+
+.edit-btn {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* アカウント詳細ページ */
+
+.account-detail-content {
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: pink;
+    padding: 0px;
+    position: relative;
+}
+
+.account-detail-pic-area {
+    background-color: pink;
+    padding: 20px 40px 30px;
+}
+
+
+.account-detail-pic-main {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.account-detail-dami-img {
+    width: 100px;
+    height: auto;
+}
+
+.account-detail-dami-wrap {
+    display: flex;
+    gap: 0 20px;
+    margin-top: 30px;
+}
+
+.account-detail-dami-img {
+    border-radius: 20px;
+    
+}
+
+.account-detail-back-link {
+    margin-left: 20px;
+   padding-top: 20px;
+    display: block;
+}
+
+.account-detail-back-link:hover {
+    opacity: 0.6;
+}
+
+.account-detail-back-link img {
+    width: 20px;
+     transform: rotate( 180deg );
+    height: auto;
+}
+
+.account-detail-txt-area {
+    background-color: #fff;
+    border-radius:20px 20px 0 0 ;
+    padding: 20px 30px;
+}
+
+.account-detail-txt-top-wrap {
+    display: flex;
+    gap: 0 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ececeb;
+}
+
+.account-detail-txt-name {
+    text-align-last: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+.account-detail-txt-age {
+    text-align-last: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+.account-detail-txt-residence {
+    text-align-last: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.account-detail-txt-bio-wrap {
+    padding: 20px 0;
+    border-bottom: 1px solid #ececeb;
+}
+
+.account-detail-txt-bio-label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.account-detail-txt-bio-txt {
+    font-size: 16px;
+    text-align: left;
+}
+
+
+.account-detail-txt-base-wrap {
+    padding: 20px 0;
+}
+
+.account-detail-txt-base-label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.account-detail-txt-base-txt {
+    font-size: 16px;
+    text-align: left;
+}
+
+
+.account-detail-txt-base-items {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.account-detail-txt-base-txt-label {
+    width: 40%;
+}
+
+.account-detail-txt-base-txt-pro {
+    width: 60%;
+    color: #c96274;
+}
+
+.account-detail-btn-area {
+    position: absolute;
+    bottom: 20px;
+     right: 0;
+  left: 0;
+  margin: 0 auto;
+    width: 90%;
+}
+
+
+.account-detail-good-btn {
+    background-color: #c96274;
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-weight: 22px;
+    position: relative;
+}
+
+
+.account-detail-btn-area button {
+  font-size: 18px;
+}
+
+.account-detail-good-btn-img {
+    width: 25px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+
+.account-detail-already-btn {
+    border-radius: 30px;
+    text-align: center;
+    background-color: #ad9c9c;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+/* メッセージ画面 */
+
+.message-label {
+    color: #000;
+}
+
+.message-txt {
+    color: #000;
+}
+
+.message-time {
+    color: #000;
+}
+
+.message-content {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    max-width: 100%;
+}
